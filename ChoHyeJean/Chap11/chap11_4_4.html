@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WINDOW scrollTo() 메서드</title>
+    </head>
+    <body>
+        <button onclick="popup()">팝업</button>        
+        <script>
+            function popup(){
+                window.scrollTo(100,200);
+                window.scrollBy({top:600, behavior:'smooth'});
+            }
+        </script>
+    </body>
+</html>
